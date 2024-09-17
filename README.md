@@ -24,10 +24,11 @@ src
 │   │       └── stepdefinitions
 │   └── resources
 │       ├── features
+│       ├── files
 │       └── serenity.conf
 ```
 
-### Key Folders:
+### Key Folders and Files:
 
 - **interactions**: Contains custom actions or browser interactions.
 - **models**: Data models used within the tests.
@@ -36,3 +37,6 @@ src
 - **ui**: Contains locators for interacting with the UI.
 - **runners**: Test runners configured for Cucumber.
 - **stepdefinitions**: Cucumber step definitions for linking Gherkin steps to Screenplay actions.
+- **features**: Contains Gherkin feature files that define test scenarios.
+- **files**: Contains any external data files or configurations used during the tests.
+- **serenity.conf**: The configuration file for Serenity BDD.
